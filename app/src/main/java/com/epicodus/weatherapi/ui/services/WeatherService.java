@@ -51,13 +51,13 @@ public class WeatherService {
                 JSONObject forcastJSON = weatherJSON.getJSONObject("city");
                 JSONArray listJSON = weatherJSON.getJSONArray("list");
 
-                    String name = forcastJSON.getString("name");
                     String country = forcastJSON.getString("country");
                     double latitude = forcastJSON.getJSONObject("coord").getDouble("lat");
                     double longitude = forcastJSON.getJSONObject("coord").getDouble("lon");
 
                 for (int i = 0; i < listJSON.length(); i++) {
                     JSONObject forecastJSON = listJSON.getJSONObject(i);
+                    String name = forecastJSON.getString("dt");
                     double temp = forecastJSON.getJSONObject("main").getDouble("temp");
                     int humidity = forecastJSON.getJSONObject("main").getInt("humidity");
 
