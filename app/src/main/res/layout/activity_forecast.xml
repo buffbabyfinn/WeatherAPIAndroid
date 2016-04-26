@@ -9,4 +9,77 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.epicodus.weatherapi.ui.ForecastActivity">
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"/>
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="City Name"-->
+        <!--android:id="@+id/cityName"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="31dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="30sp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Country Name"-->
+        <!--android:id="@+id/countryName"-->
+        <!--android:layout_below="@+id/cityName"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textStyle="italic" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="latitude"-->
+        <!--android:id="@+id/latitude"-->
+        <!--android:layout_marginTop="31dp"-->
+        <!--android:layout_below="@+id/countryName"-->
+        <!--android:layout_alignLeft="@+id/cityName"-->
+        <!--android:layout_alignStart="@+id/cityName" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="longitude"-->
+        <!--android:id="@+id/longitude"-->
+        <!--android:layout_alignTop="@+id/latitude"-->
+        <!--android:layout_alignRight="@+id/cityName"-->
+        <!--android:layout_alignEnd="@+id/cityName" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Terperature"-->
+        <!--android:id="@+id/temp"-->
+        <!--android:layout_marginBottom="81dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="18sp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Humidity"-->
+        <!--android:id="@+id/humidity"-->
+        <!--android:layout_alignTop="@+id/temp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="27dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Weather"-->
+        <!--android:id="@+id/weather"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textSize="15sp" />-->
 </RelativeLayout>

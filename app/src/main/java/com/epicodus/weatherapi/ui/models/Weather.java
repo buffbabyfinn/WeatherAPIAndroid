@@ -1,4 +1,4 @@
-package com.epicodus.weatherapi.ui;
+package com.epicodus.weatherapi.ui.models;
 
 import java.util.ArrayList;
 

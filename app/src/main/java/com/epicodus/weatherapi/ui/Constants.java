@@ -11,5 +11,4 @@ public class Constants {
     public static final String WEATHER_BASE_URL_FRONT = "http://api.openweathermap.org/data/2.5/forecast?q=";
     public static final String WEATHER_BASE_URL_BACK = ",us&mode=json&appid=";
 
-    public static final String WEATHER_QUERY_PARAMETER = "city";
 }
